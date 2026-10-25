@@ -8,4 +8,9 @@ def divide(a: int, b: int):
   output = a / b
   if b == 0:
     raise ValueError("> denominator cannot be 0")
+  return output
+def divide_round(a: int, b: int):
+  output = a // b
+  if b == 0:
+    raise ValueError("> denominator cannot be 0")
   return output 
