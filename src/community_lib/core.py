@@ -1,0 +1,9 @@
+def subtract(a: int, b: int):
+  sum = a - b
+  return sum
+def multiply(a: int, b: int):
+  product = a * b
+  return product 
+def divide(a: int, b: int):
+  output = a / b
+  return output 
