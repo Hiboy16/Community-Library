@@ -6,4 +6,6 @@ def multiply(a: int, b: int):
   return product 
 def divide(a: int, b: int):
   output = a / b
+  if b == 0:
+    raise ValueError("> denominator cannot be 0")
   return output 
