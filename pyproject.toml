@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build_meta"
+
+[project]
+name = "community-lib" 
+description = "A community driven library." 
+version = "1.0.0" 
+readme = "README.md" 
+authors = [
+  { name="The community" },
+]
+requires-python = ">= 3.8" 
